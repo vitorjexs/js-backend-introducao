@@ -21,10 +21,10 @@ import { log } from "console";
 // Função pricipal, que ativará as outras
 export const contarPalavras = (text) => {
     const paragrafosQuebrados = quebrarFormatarParagrafos(text);
-    console.log('Parágrafos Quebrados:', paragrafosQuebrados);
+    // console.log('Parágrafos Quebrados:', paragrafosQuebrados);
 
     const contagemPalavras = separarEmParagrafoseContarPalavras(paragrafosQuebrados);
-    console.log('Parágrafos Separados e palavras contadas:', contagemPalavras);
+    // console.log('Parágrafos Separados e palavras contadas:', contagemPalavras);
 
     // const contagemDasPalavras = contarPalavrasNoArquivo(paragrafosSeparados);
     // console.log('Contagem das Palavras:', contagemDasPalavras);
@@ -36,7 +36,7 @@ export const contarPalavras = (text) => {
 
 const quebrarFormatarParagrafos = (text) => {
     const textoSplitado = text.toLowerCase().split('\n')
-    console.log('Texto Splitado:', textoSplitado);
+    // console.log('Texto Splitado:', textoSplitado);
 
     return textoSplitado;
 }
@@ -46,9 +46,9 @@ const separarEmParagrafoseContarPalavras = (text) => {
         if (!paragrafo) return [];
         return contarPalavrasNoArquivo(paragrafo);
     })
-    console.log('Parágrafo Indexado:', paragrafoIndexado);
+    // console.log('Parágrafo Indexado:', paragrafoIndexado);
     return paragrafoIndexado;
-    console.log(paragrafoIndexado);
+    // console.log(paragrafoIndexado);
     // .filter((paragrafo) => paragrafo)
     // .map(paragrafo => contarPalavrasNoArquivo(paragrafo))
 
