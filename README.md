@@ -7,5 +7,5 @@ Cursos / Concluído
 
 JavaScript: utilizando tipos, variáveis e funções [SIM];
 JavaScript: conhecendo arrays [SIM];
-JavaScript: conhecendo objetos [NAO];
-JavaScript com Node.js: criando sua primeira biblioteca [NAO];
+JavaScript: conhecendo objetos [SIM];
+JavaScript com Node.js: criando sua primeira biblioteca [SIM];
